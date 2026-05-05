@@ -19,3 +19,14 @@ print(a)
 10
 print(type(a))
 # <class 'str'>
+
+# 4. int usage in string value
+a = "10"
+b = "12"
+print(a + b)
+
+
+a = int("10")
+b = int("10")
+print(a + b)
+20
