@@ -55,6 +55,10 @@ a = "10"
 b = "12"
 print(a + b)
 
+a = 256
+print(float(a))
+
+
 a = int("10")
 b = int("10")
 print(a + b)  # 20
