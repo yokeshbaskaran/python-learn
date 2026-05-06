@@ -36,3 +36,16 @@ l2 = [4, 5, 6]
 l1.extend(l2)
 print(l1)
 print(l2)
+
+
+# 2. Tuple = ()
+a = (1, 2, 3, 4)
+# a[0] = 55  # ERROR: "TypeError: 'tuple' object does not support item assignment"
+print(type(a))
+
+a = (1, 2, 3, 4)
+b = list(a)
+# print(b, type(b))
+b.pop(1)
+print(a)
+print(b)
