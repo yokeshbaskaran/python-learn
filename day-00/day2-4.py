@@ -7,19 +7,39 @@
 
 # - Python functions are one of the most important building blocks in programming. They help you organize code, reuse logic, and make programs easier to understand. Let’s walk through the basics in a simple way.
 
-# # Examples
-# def greet():
-#     print("Hello World")
+
+# Examples
+def greet():
+    print("Hello World")
 
 
-# # calling a function called greet
-# greet()
+greet()  # calling a function called greet
 
 
+#  using return keyword in function
+def greet():
+    return "Hello World"
+
+
+# calling a function called greet
+greet()  # nthg returns
+print(greet())  # prints the returned value.
+
+
+# samples
+def valueA():
+    return 10
+
+
+a = valueA()
+print("value of a:", a)
+
+
+# adding 2 values
 def add():
     a = int(input("Enter a:"))
     b = int(input("Enter b:"))
     print("add of a,b:", a + b)
 
 
-add()
+add()  # calling add() function
