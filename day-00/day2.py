@@ -24,3 +24,29 @@ if name == "Priya":
     print("Surya meets priya")
 else:
     print("Surya meets meghna")
+
+# 2. greater than(>) and less than (<)
+mark = int(input("enter marks:"))
+# if mark > 35:
+if mark >= 35:
+    print("Pass")
+else:
+    print("Fail!")
+
+income = int(input("enter income:"))
+if income > 7000:
+    print("got a scholar")
+else:
+    print("got no scholar!")
+
+sample = int(input("enter num:"))
+if sample % 2 == 0:
+    print("divided by 2")
+else:
+    print("not divided by 2")
+
+sample = int(input("enter num:"))
+if sample % 3 == 0:
+    print("divided by 3")
+else:
+    print("not divided by 3")
