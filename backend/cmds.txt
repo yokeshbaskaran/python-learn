@@ -1,0 +1,11 @@
+Commands:
+---
+
+ python -m venv venv  
+    # venv (2nd) - own venv name
+
+ .\venv\Scripts\activate  
+    # venv (2nd) - activate
+
+ uvicorn main:app --reload
+    # start the app in main.py
