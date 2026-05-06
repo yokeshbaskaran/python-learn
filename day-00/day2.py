@@ -50,3 +50,52 @@ if sample % 3 == 0:
     print("divided by 3")
 else:
     print("not divided by 3")
+
+
+# odd or even
+sample = int(input("enter num:"))
+if sample % 2 == 0:
+    print("even")
+else:
+    print("odd")
+
+# odd or even
+sample = int(input("enter num:"))
+if sample % 2 == 1:
+    print("odd")
+else:
+    print("even")
+
+score = int(input("enter mark:"))
+if score < 35:
+    print("Just pass")
+if score > 35 and score < 70:
+    print("Good")
+if score > 70:
+    print("Very good!")
+
+# elif
+score = int(input("enter mark:"))
+if score < 35:
+    print("Just pass")
+elif score >= 35 and score < 70:
+    print("Good")
+elif score >= 70 and score <= 100:
+    print("Very good!")
+else:
+    print("Invalid score")
+
+a = int(input("enter a:"))
+b = int(input("enter b:"))
+operation = input("enter operations:")
+
+if operation == "add":
+    print(a + b)
+elif operation == "sub":
+    print(a - b)
+elif operation == "multi":
+    print(a * b)
+elif operation == "div":
+    print(a / b)
+else:
+    print("Invalid")
