@@ -25,12 +25,15 @@ print(a + b)
 # 3. type() -> gives type of variables
 # ---
 # 1. int - 2,5,85
-# 3. float - 25.5,78.6
-# 2. str - "text","rocky"
+# 2. float - 25.5,78.6
+
+# 3. str - "text","rocky"
+
 # 4. list - nums = [1,2,3]
 # 5. tuple - coords = (10, 20)
 # 6. set - s = {1,2,3}
 # 7. dict - person = {"name": "Alice", "age": 25}
+
 # 8. bool → True or False
 
 # Quick Summary
