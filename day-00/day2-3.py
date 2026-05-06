@@ -49,3 +49,15 @@ b = list(a)
 b.pop(1)
 print(a)
 print(b)
+
+# 3. Set - {}
+a = {1, 2, 3, 4, 1, 2}
+# a[0] = 12  #     a[0] = 12 TypeError: 'set' object does not support item assignment
+print(a)
+
+# .add()
+a.add(5)  # adds value at end
+a.remove(2)  # removes value itself when mentioned
+a.pop()
+a.pop()
+print(a)
