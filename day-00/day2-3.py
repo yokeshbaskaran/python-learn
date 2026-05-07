@@ -3,6 +3,7 @@
 
 # 1. List is a collection which is ordered and changeable. Allows duplicate members.
 # 2. Tuple is a collection which is ordered and unchangeable. Allows duplicate members.
+
 # 3. Set is a collection which is unordered, unchangeable*, and unindexed. No duplicate members.
 # 4. Dictionary is a collection which is ordered ** and changeable. No duplicate members.
 
@@ -20,8 +21,8 @@ print(a[0])  # index starts at 0
 
 # .insert()
 b = [1, 2, 3, 4, 5]
-# b.insert(2, 25)
-# print(b)
+b.insert(2, 25)
+print(b)
 
 # .pop()
 b[0] = 20
@@ -40,8 +41,9 @@ print(l2)
 
 # 2. Tuple = ()
 a = (1, 2, 3, 4)
-# a[0] = 55  # ERROR: "TypeError: 'tuple' object does not support item assignment"
-print(type(a))
+print(
+    type(a)
+)  # a[0] = 55  # ERROR: "TypeError: 'tuple' object does not support item assignment"
 
 a = (1, 2, 3, 4)
 b = list(a)
@@ -52,8 +54,9 @@ print(b)
 
 # 3. Set - {}
 a = {1, 2, 3, 4, 1, 2}
-# a[0] = 12  #     a[0] = 12 TypeError: 'set' object does not support item assignment
-print(a)
+print(
+    a
+)  # a[0] = 12  #     a[0] = 12 TypeError: 'set' object does not support item assignment
 
 # .add()
 a.add(5)  # adds value at end
