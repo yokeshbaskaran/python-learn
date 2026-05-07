@@ -1,0 +1,6 @@
+7. File Handling
+with open("data.txt", "w") as f:
+    f.write("Hello")
+
+
+Hello
