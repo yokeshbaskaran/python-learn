@@ -1,6 +1,5 @@
-7. File Handling
-with open("data.txt", "w") as f:
-    f.write("Hello")
-
-
-Hello
+Hi 
+bye!
+Just added 3 value
+Just added 4th value
+ last value!!!
