@@ -1,4 +1,4 @@
-# 1. print in python
+# 0. print in python
 print("Python is here")
 # Python is here
 print(2 + 4)
@@ -15,6 +15,13 @@ print(2 + 4)
 # - Must start with a letter or _
 # - Cannot start with a number
 # - Cannot use reserved words (like if, for, while)
+
+# 1. f-strings are:
+# - easier to read, - shorter, - faster in many cases
+# - You can also do calculations inside {}:
+
+age = 20
+print(f"Next year age will be {age + 1}")  # age = 21
 
 # 2. variables
 a = 6
