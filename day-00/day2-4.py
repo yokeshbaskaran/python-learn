@@ -84,8 +84,10 @@ printrange(a, b)
 # Get input for uname and password and Create a function called validate. If uname and password matches the function should return true else false.
 
 
-def validate():
-    if s_username == username and s_pwsd == password:
+def validate(uname, pwd):
+    s_username = "EMC"
+    s_pwsd = "123"
+    if s_username == uname and s_pwsd == pwd:
         print("Correct! Logined")
         return True
     else:
@@ -93,12 +95,9 @@ def validate():
         return False
 
 
-s_username = "EMC"
-s_pwsd = "123"
-
 username = input("enter username:")
 password = input("enter password:")
-a = validate()
+a = validate(username, password)
 print("value of a:", a)
 
 # 6)(a+b)*c - Get input for a and b and function called add() which should return the sum of a and b and multiply that sum with c
