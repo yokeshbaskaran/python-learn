@@ -59,3 +59,57 @@ print(ram.username, "drinks:", ram.drink)
 sam.username = "Sammy"
 sam.drink = "no"
 print(sam.username, "drinks:", sam.drink)
+
+
+# 1)Create a class called laptop and create a following variables and functions. Variables = > Price, Processor, Ram | Create Object HP, DELL, LENOVO
+
+
+# without constructor
+class laptop:
+    processor = ""
+    ram = ""
+    price = ""
+
+    def lapDetails(_, a, b, c):
+        print(a, b, c)
+
+
+hp = laptop()
+dell = laptop()
+
+hp.processor = "12"
+hp.ram = "8GB"
+hp.price = "56000"
+hp.lapDetails(hp.processor, hp.price, hp.ram)
+
+dell.processor = "11"
+dell.ram = "16GB"
+dell.price = "60000"
+dell.lapDetails(dell.processor, dell.price, dell.ram)
+
+
+# with constructor function
+class Laptop:
+    # constructor function, "self" refers to current object
+    def __init__(self):
+        self.price = 0
+        self.ram = 0
+        self.processor = 0
+
+    def display(self):
+        print(self.price, self.ram, self.processor)
+
+
+# creating object - HP
+hp = Laptop()
+hp.processor = "12"
+hp.ram = "8GB"
+hp.price = "56000"
+hp.display()
+
+# creating object - DELL
+dell = Laptop()
+dell.processor = "11"
+dell.ram = "16GB"
+dell.price = "60000"
+dell.display()
