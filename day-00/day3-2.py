@@ -9,7 +9,7 @@
 # 4. Hierarchical Inheritance:- Multiple child classes inherit from one parent class.
 
 
-# Example
+# Examples
 # 1. Single Inheritance
 class Father:
     def phone(self):
