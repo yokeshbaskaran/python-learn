@@ -58,6 +58,12 @@ if sample % 3 == 0:
 else:
     print("not divided by 3")
 
+# 3. chaining Comparison Operators
+age = 240
+if 18 <= age < 25:
+    print("You are an college student")
+else:
+    print("You are not college student")
 
 # odd or even
 sample = int(input("enter num:"))
