@@ -1,4 +1,26 @@
 # 7. File Handling
+# - File handling in Python is used to create, read, write, append, and manage files stored on your computer.
+
+# Opening a File - Python uses the open() function.
+# file = open("example.txt", "mode")
+
+# Common Modes
+# -----------------
+# Mode	Description
+# -----------------
+# "r"	Read file
+# "w"	Write file (creates/overwrites)
+# "a"	Append to file
+# "x"	Create new file
+# "b"	Binary mode
+# "t"	Text mode (default)
+
+myfile = open("title.txt", "x")
+myfile = open("title.txt", "w")
+myfile.write("Hi!")
+myfile = open("title.txt", "a")
+myfile.write("\n Bye!")
+
 
 my_file = open("data.txt")
 print("file:", my_file)
