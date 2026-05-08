@@ -9,6 +9,11 @@ for i in "apple":
 for i in range(0, 5, 2):
     print(i)  # 0, 2, 4
 
+# prints 5 to 0 in reverse order
+for i in range(5, -1, -1):
+    print(i)
+
+
 # range() - In Python, range() is a built-in function used to generate a sequence of numbers. It’s commonly used in loops (like for loops).
 for i in range(10):
     print("value of i:", i)
