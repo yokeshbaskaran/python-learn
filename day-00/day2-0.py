@@ -1,4 +1,11 @@
 # Conditions (if/else)
+
+age = 15
+# ternary operator
+message = "Ready to vote!" if age >= 18 else "Not!"
+print(message)
+
+# examples:
 age = int(input("enter ur age:"))
 if age > 18:
     print("You are egilible to vote!")
