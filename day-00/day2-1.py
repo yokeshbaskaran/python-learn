@@ -1,7 +1,13 @@
 # Looping
 # 1. For loop - The for loop is usually used when the number of iterations is known.
+
 for i in "apple":
     print("value of i:", i)  # a, p, p, l,e
+
+# 0 -start number, 5 -stop before 5(so 4 is end number), 2 - increment by 2
+# start, stop, increment in for loop
+for i in range(0, 5, 2):
+    print(i)  # 0, 2, 4
 
 # range() - In Python, range() is a built-in function used to generate a sequence of numbers. It’s commonly used in loops (like for loops).
 for i in range(10):
